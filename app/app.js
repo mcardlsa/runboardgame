@@ -2,7 +2,10 @@
 'use strict';
 
   angular
-      .module('starterApp', ['ngMaterial', 'avatars'])
+      .module('rungameApp', [
+        'ngMaterial',
+        'avatars'
+        ])
       .controller('AppCtrl', ['$scope', 'avatarsService', '$mdSidenav', '$mdBottomSheet', '$log', AvatarAppController ])
       .config(function($mdThemingProvider) {
 
