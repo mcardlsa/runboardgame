@@ -12,8 +12,8 @@
         // Use the 'brown' theme - override default 'blue' theme
 
         $mdThemingProvider.theme('default')
-          .primaryColor('brown')
-          .accentColor('brown');
+          .primaryColor('blue')
+          .accentColor('teal');
 
       });
 
@@ -80,7 +80,7 @@
         $mdBottomSheet.show({
           parent: angular.element(document.getElementById('content')),
           template: '<md-bottom-sheet class="md-list md-has-header">' +
-                      '<md-subheader>Avatar Actions</md-subheader>' +
+                      '<md-subheader>Actions</md-subheader>' +
                         '<md-list>' +
                           '<md-item ng-repeat="item in vm.items">' +
                             '<md-button ng-click="vm.performAction(item)">{{item.name}}</md-button>' +
