@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /build/
 /benchpress-build/
 .DS_Store
@@ -20,3 +21,12 @@ libpeerconnection.log
 npm-debug.log
 /tmp/
 /scripts/bower/bower-*
+=======
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+>>>>>>> 6c6e0137af4f1586043b5f15ef00001023afbca8

@@ -1,5 +1,20 @@
 {
+<<<<<<< HEAD
   "extends": ".jshintrc-base",
   "node": true,
   "globals": {}
 }
+=======
+  "globalstrict": true,
+  "globals": {
+    "angular": false,
+    "describe": false,
+    "it": false,
+    "expect": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "module": false,
+    "inject": false
+  }
+}
+>>>>>>> 6c6e0137af4f1586043b5f15ef00001023afbca8
